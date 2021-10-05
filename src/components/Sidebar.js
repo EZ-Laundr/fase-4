@@ -1,7 +1,7 @@
 export default function Sidebar() {
     return (
         <>
-            <nav className="sidebar" data-trigger="scrollbar">
+            <nav className="sidebar overflow-auto" data-trigger="scrollbar">
                 {/* Sidebar Header */}
                 <div className="sidebar-header d-none d-lg-block">
                     {/* Sidebar Toggle Pin Button */}
