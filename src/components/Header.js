@@ -1,11 +1,13 @@
+import toco from '../img/toco.png'
+
 export default function Headers() {
     return (
         <>
             <header className="header fixed-top d-flex align-content-center flex-wrap">
                 {/* Logo */}
                 <div className="logo">
-                    <a href="index.html" className="default-logo"><img src="assets/img/logo.png" alt="" /></a>
-                    <a href="index.html" className="mobile-logo"><img src="assets/img/mobile-logo.png" alt="" /></a>
+                    {/* <a href="#" className="default-logo"><img src={toco} alt="" /></a> */}
+                    <a href="index.html" className="mobile-logo"><img src={toco} alt="" /></a>
                 </div>
                 {/* End Logo */}
 

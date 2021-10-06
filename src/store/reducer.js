@@ -1,7 +1,7 @@
 import { FETCH_DATA } from './actionType'
 
 const intialState = {
-    data: []
+    items: []
 }
 
 export default function reducer(state = intialState, action) {
@@ -9,7 +9,7 @@ export default function reducer(state = intialState, action) {
         case FETCH_DATA:
             return {
                 ...state,
-                data: action.payload
+                items: action.payload
             }
         default:
             return state

@@ -15,6 +15,7 @@ export function fetchData() {
                 method: 'get'
             })
             dispatch(setData(data))
+            console.log(data)
         } catch (err) {
             console.log(err)
         }
