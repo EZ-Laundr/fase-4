@@ -1,3 +1,5 @@
+import '../assets/plugins/perfect-scrollbar/perfect-scrollbar.min.css'
+
 export default function Sidebar() {
     return (
         <>
